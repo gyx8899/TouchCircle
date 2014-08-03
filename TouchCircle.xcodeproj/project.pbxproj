@@ -22,6 +22,7 @@
 		849B1782198E0385007E48AD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849B1761198E0385007E48AD /* UIKit.framework */; };
 		849B178A198E0386007E48AD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 849B1788198E0386007E48AD /* InfoPlist.strings */; };
 		849B178C198E0386007E48AD /* TouchCircleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B178B198E0386007E48AD /* TouchCircleTests.m */; };
+		849B1797198E03B6007E48AD /* OAPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B1796198E03B6007E48AD /* OAPageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		849B1787198E0386007E48AD /* TouchCircleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TouchCircleTests-Info.plist"; sourceTree = "<group>"; };
 		849B1789198E0386007E48AD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		849B178B198E0386007E48AD /* TouchCircleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchCircleTests.m; sourceTree = "<group>"; };
+		849B1795198E03B6007E48AD /* OAPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAPageView.h; sourceTree = "<group>"; };
+		849B1796198E03B6007E48AD /* OAPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAPageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				849B1772198E0385007E48AD /* Main_iPad.storyboard */,
 				849B1775198E0385007E48AD /* OAViewController.h */,
 				849B1776198E0385007E48AD /* OAViewController.m */,
+				849B1795198E03B6007E48AD /* OAPageView.h */,
+				849B1796198E03B6007E48AD /* OAPageView.m */,
 				849B1778198E0385007E48AD /* Images.xcassets */,
 				849B1764198E0385007E48AD /* Supporting Files */,
 			);
@@ -257,6 +262,7 @@
 				849B176E198E0385007E48AD /* OAAppDelegate.m in Sources */,
 				849B176A198E0385007E48AD /* main.m in Sources */,
 				849B1777198E0385007E48AD /* OAViewController.m in Sources */,
+				849B1797198E03B6007E48AD /* OAPageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
